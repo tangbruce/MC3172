@@ -1,0 +1,1 @@
+.\riscv-none-embed-objdump.exe  -d .\MC3172.elf > asm.txt

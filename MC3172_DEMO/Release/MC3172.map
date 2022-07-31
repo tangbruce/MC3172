@@ -1,0 +1,1142 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(div.o)
+                              ./USER_CODE/uart.o (__udivsi3)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/fifo.o
+ .text          0x0000000000000000        0x0 ./USER_CODE/fifo.o
+ .data          0x0000000000000000        0x0 ./USER_CODE/fifo.o
+ .bss           0x0000000000000000        0x0 ./USER_CODE/fifo.o
+ .text.fifo_peek
+                0x0000000000000000       0x44 ./USER_CODE/fifo.o
+ .text.fifo_flush
+                0x0000000000000000        0x8 ./USER_CODE/fifo.o
+ .text.fifo_read
+                0x0000000000000000       0x72 ./USER_CODE/fifo.o
+ .text.fifo_write
+                0x0000000000000000       0x7c ./USER_CODE/fifo.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/main.o
+ .text          0x0000000000000000        0x0 ./USER_CODE/main.o
+ .data          0x0000000000000000        0x0 ./USER_CODE/main.o
+ .bss           0x0000000000000000        0x0 ./USER_CODE/main.o
+ .text.thread_end
+                0x0000000000000000        0x2 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000      0x742 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000     0x10df ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x22 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x8e ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x51 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0xef ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x6a ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000      0x1df ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x19 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x58 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x34 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x34 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x16 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000      0x10e ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x8d ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x58 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x1f ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x43 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x20 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000      0x18e ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000      0x330 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x16 ./USER_CODE/main.o
+ .debug_macro   0x0000000000000000       0x29 ./USER_CODE/main.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./USER_CODE/uart.o
+ .text          0x0000000000000000        0x0 ./USER_CODE/uart.o
+ .data          0x0000000000000000        0x0 ./USER_CODE/uart.o
+ .bss           0x0000000000000000        0x0 ./USER_CODE/uart.o
+ .text.serial_close
+                0x0000000000000000        0x8 ./USER_CODE/uart.o
+ .text.serial_write
+                0x0000000000000000       0x4e ./USER_CODE/uart.o
+ .text.serial_read
+                0x0000000000000000       0x3c ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000      0x742 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000     0x10df ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x22 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x8e ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x51 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0xef ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x6a ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000      0x1df ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x19 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x58 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x34 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x34 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x16 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000      0x10e ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x8d ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x58 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x1f ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x43 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x20 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000      0x18e ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000      0x330 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x16 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x29 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000000000       0x1c ./USER_CODE/uart.o
+ .group         0x0000000000000000        0xc ./MC3172/thread_start.o
+ .group         0x0000000000000000        0xc ./MC3172/thread_start.o
+ .group         0x0000000000000000        0xc ./MC3172/thread_start.o
+ .text          0x0000000000000000        0x0 ./MC3172/thread_start.o
+ .data          0x0000000000000000        0x0 ./MC3172/thread_start.o
+ .bss           0x0000000000000000        0x0 ./MC3172/thread_start.o
+ .debug_macro   0x0000000000000000      0x742 ./MC3172/thread_start.o
+ .debug_macro   0x0000000000000000     0x10df ./MC3172/thread_start.o
+ .data          0x0000000000000000        0x0 d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(div.o)
+ .bss           0x0000000000000000        0x0 d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(div.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+CODE_SPACE       0x0000000000000010 0x000000000000fff0 x
+DATA_SPACE       0x0000000020000010 0x000000000000cf40 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./USER_CODE/fifo.o
+LOAD ./USER_CODE/main.o
+LOAD ./USER_CODE/uart.o
+LOAD ./MC3172/thread_start.o
+LOAD d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libm.a
+LOAD d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc_nano.a
+LOAD d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a
+                0x0000000000000010                . = 0x10
+
+.text           0x0000000000000010       0xd0
+ *(.text.thread_start)
+ .text.thread_start
+                0x0000000000000010       0x1c ./MC3172/thread_start.o
+                0x0000000000000010                thread_start
+ *(.text)
+ .text          0x000000000000002c       0xb4 d:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32im/ilp32\libgcc.a(div.o)
+                0x000000000000002c                __divsi3
+                0x0000000000000034                __udivsi3
+                0x000000000000007c                __umodsi3
+                0x00000000000000b0                __modsi3
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+
+.text.fifo_init
+                0x00000000000000e0       0x1c
+ .text.fifo_init
+                0x00000000000000e0       0x1c ./USER_CODE/fifo.o
+                0x00000000000000e0                fifo_init
+
+.text.fifo_length
+                0x00000000000000fc        0xa
+ .text.fifo_length
+                0x00000000000000fc        0xa ./USER_CODE/fifo.o
+                0x00000000000000fc                fifo_length
+
+.text.fifo_put  0x0000000000000106       0x42
+ .text.fifo_put
+                0x0000000000000106       0x42 ./USER_CODE/fifo.o
+                0x0000000000000106                fifo_put
+
+.text.fifo_get  0x0000000000000148       0x42
+ .text.fifo_get
+                0x0000000000000148       0x42 ./USER_CODE/fifo.o
+                0x0000000000000148                fifo_get
+
+.text.tx_vid_fun
+                0x000000000000018a       0x62
+ .text.tx_vid_fun
+                0x000000000000018a       0x62 ./USER_CODE/main.o
+                0x000000000000018a                tx_vid_fun
+
+.text.rx_vid_fun
+                0x00000000000001ec       0x4e
+ .text.rx_vid_fun
+                0x00000000000001ec       0x4e ./USER_CODE/main.o
+                0x00000000000001ec                rx_vid_fun
+
+.text.thread0_main
+                0x000000000000023a       0x5a
+ .text.thread0_main
+                0x000000000000023a       0x5a ./USER_CODE/main.o
+                0x000000000000023a                thread0_main
+
+.text.thread1_main
+                0x0000000000000294        0x8
+ .text.thread1_main
+                0x0000000000000294        0x8 ./USER_CODE/main.o
+                0x0000000000000294                thread1_main
+
+.text.thread2_main
+                0x000000000000029c        0x2
+ .text.thread2_main
+                0x000000000000029c        0x2 ./USER_CODE/main.o
+                0x000000000000029c                thread2_main
+
+.text.thread3_main
+                0x000000000000029e        0x2
+ .text.thread3_main
+                0x000000000000029e        0x2 ./USER_CODE/main.o
+                0x000000000000029e                thread3_main
+
+.text.thread4_main
+                0x00000000000002a0        0x2
+ .text.thread4_main
+                0x00000000000002a0        0x2 ./USER_CODE/main.o
+                0x00000000000002a0                thread4_main
+
+.text.thread5_main
+                0x00000000000002a2        0x2
+ .text.thread5_main
+                0x00000000000002a2        0x2 ./USER_CODE/main.o
+                0x00000000000002a2                thread5_main
+
+.text.thread6_main
+                0x00000000000002a4        0x2
+ .text.thread6_main
+                0x00000000000002a4        0x2 ./USER_CODE/main.o
+                0x00000000000002a4                thread6_main
+
+.text.thread7_main
+                0x00000000000002a6        0x2
+ .text.thread7_main
+                0x00000000000002a6        0x2 ./USER_CODE/main.o
+                0x00000000000002a6                thread7_main
+
+.text.thread8_main
+                0x00000000000002a8        0x2
+ .text.thread8_main
+                0x00000000000002a8        0x2 ./USER_CODE/main.o
+                0x00000000000002a8                thread8_main
+
+.text.thread9_main
+                0x00000000000002aa        0x2
+ .text.thread9_main
+                0x00000000000002aa        0x2 ./USER_CODE/main.o
+                0x00000000000002aa                thread9_main
+
+.text.thread10_main
+                0x00000000000002ac        0x2
+ .text.thread10_main
+                0x00000000000002ac        0x2 ./USER_CODE/main.o
+                0x00000000000002ac                thread10_main
+
+.text.thread11_main
+                0x00000000000002ae        0x2
+ .text.thread11_main
+                0x00000000000002ae        0x2 ./USER_CODE/main.o
+                0x00000000000002ae                thread11_main
+
+.text.thread12_main
+                0x00000000000002b0        0x2
+ .text.thread12_main
+                0x00000000000002b0        0x2 ./USER_CODE/main.o
+                0x00000000000002b0                thread12_main
+
+.text.thread13_main
+                0x00000000000002b2        0x2
+ .text.thread13_main
+                0x00000000000002b2        0x2 ./USER_CODE/main.o
+                0x00000000000002b2                thread13_main
+
+.text.thread14_main
+                0x00000000000002b4        0x2
+ .text.thread14_main
+                0x00000000000002b4        0x2 ./USER_CODE/main.o
+                0x00000000000002b4                thread14_main
+
+.text.thread15_main
+                0x00000000000002b6        0x2
+ .text.thread15_main
+                0x00000000000002b6        0x2 ./USER_CODE/main.o
+                0x00000000000002b6                thread15_main
+
+.text.thread16_main
+                0x00000000000002b8        0x2
+ .text.thread16_main
+                0x00000000000002b8        0x2 ./USER_CODE/main.o
+                0x00000000000002b8                thread16_main
+
+.text.thread17_main
+                0x00000000000002ba        0x2
+ .text.thread17_main
+                0x00000000000002ba        0x2 ./USER_CODE/main.o
+                0x00000000000002ba                thread17_main
+
+.text.thread18_main
+                0x00000000000002bc        0x2
+ .text.thread18_main
+                0x00000000000002bc        0x2 ./USER_CODE/main.o
+                0x00000000000002bc                thread18_main
+
+.text.thread19_main
+                0x00000000000002be        0x2
+ .text.thread19_main
+                0x00000000000002be        0x2 ./USER_CODE/main.o
+                0x00000000000002be                thread19_main
+
+.text.thread20_main
+                0x00000000000002c0        0x2
+ .text.thread20_main
+                0x00000000000002c0        0x2 ./USER_CODE/main.o
+                0x00000000000002c0                thread20_main
+
+.text.thread21_main
+                0x00000000000002c2        0x2
+ .text.thread21_main
+                0x00000000000002c2        0x2 ./USER_CODE/main.o
+                0x00000000000002c2                thread21_main
+
+.text.thread22_main
+                0x00000000000002c4        0x2
+ .text.thread22_main
+                0x00000000000002c4        0x2 ./USER_CODE/main.o
+                0x00000000000002c4                thread22_main
+
+.text.thread23_main
+                0x00000000000002c6        0x2
+ .text.thread23_main
+                0x00000000000002c6        0x2 ./USER_CODE/main.o
+                0x00000000000002c6                thread23_main
+
+.text.thread24_main
+                0x00000000000002c8        0x2
+ .text.thread24_main
+                0x00000000000002c8        0x2 ./USER_CODE/main.o
+                0x00000000000002c8                thread24_main
+
+.text.thread25_main
+                0x00000000000002ca        0x2
+ .text.thread25_main
+                0x00000000000002ca        0x2 ./USER_CODE/main.o
+                0x00000000000002ca                thread25_main
+
+.text.thread26_main
+                0x00000000000002cc        0x2
+ .text.thread26_main
+                0x00000000000002cc        0x2 ./USER_CODE/main.o
+                0x00000000000002cc                thread26_main
+
+.text.thread27_main
+                0x00000000000002ce        0x2
+ .text.thread27_main
+                0x00000000000002ce        0x2 ./USER_CODE/main.o
+                0x00000000000002ce                thread27_main
+
+.text.thread28_main
+                0x00000000000002d0        0x2
+ .text.thread28_main
+                0x00000000000002d0        0x2 ./USER_CODE/main.o
+                0x00000000000002d0                thread28_main
+
+.text.thread29_main
+                0x00000000000002d2        0x2
+ .text.thread29_main
+                0x00000000000002d2        0x2 ./USER_CODE/main.o
+                0x00000000000002d2                thread29_main
+
+.text.thread30_main
+                0x00000000000002d4        0x2
+ .text.thread30_main
+                0x00000000000002d4        0x2 ./USER_CODE/main.o
+                0x00000000000002d4                thread30_main
+
+.text.thread31_main
+                0x00000000000002d6        0x2
+ .text.thread31_main
+                0x00000000000002d6        0x2 ./USER_CODE/main.o
+                0x00000000000002d6                thread31_main
+
+.text.thread32_main
+                0x00000000000002d8        0x2
+ .text.thread32_main
+                0x00000000000002d8        0x2 ./USER_CODE/main.o
+                0x00000000000002d8                thread32_main
+
+.text.thread33_main
+                0x00000000000002da        0x2
+ .text.thread33_main
+                0x00000000000002da        0x2 ./USER_CODE/main.o
+                0x00000000000002da                thread33_main
+
+.text.thread34_main
+                0x00000000000002dc        0x2
+ .text.thread34_main
+                0x00000000000002dc        0x2 ./USER_CODE/main.o
+                0x00000000000002dc                thread34_main
+
+.text.thread35_main
+                0x00000000000002de        0x2
+ .text.thread35_main
+                0x00000000000002de        0x2 ./USER_CODE/main.o
+                0x00000000000002de                thread35_main
+
+.text.thread36_main
+                0x00000000000002e0        0x2
+ .text.thread36_main
+                0x00000000000002e0        0x2 ./USER_CODE/main.o
+                0x00000000000002e0                thread36_main
+
+.text.thread37_main
+                0x00000000000002e2        0x2
+ .text.thread37_main
+                0x00000000000002e2        0x2 ./USER_CODE/main.o
+                0x00000000000002e2                thread37_main
+
+.text.thread38_main
+                0x00000000000002e4        0x2
+ .text.thread38_main
+                0x00000000000002e4        0x2 ./USER_CODE/main.o
+                0x00000000000002e4                thread38_main
+
+.text.thread39_main
+                0x00000000000002e6        0x2
+ .text.thread39_main
+                0x00000000000002e6        0x2 ./USER_CODE/main.o
+                0x00000000000002e6                thread39_main
+
+.text.thread40_main
+                0x00000000000002e8        0x2
+ .text.thread40_main
+                0x00000000000002e8        0x2 ./USER_CODE/main.o
+                0x00000000000002e8                thread40_main
+
+.text.thread41_main
+                0x00000000000002ea        0x2
+ .text.thread41_main
+                0x00000000000002ea        0x2 ./USER_CODE/main.o
+                0x00000000000002ea                thread41_main
+
+.text.thread42_main
+                0x00000000000002ec        0x2
+ .text.thread42_main
+                0x00000000000002ec        0x2 ./USER_CODE/main.o
+                0x00000000000002ec                thread42_main
+
+.text.thread43_main
+                0x00000000000002ee        0x2
+ .text.thread43_main
+                0x00000000000002ee        0x2 ./USER_CODE/main.o
+                0x00000000000002ee                thread43_main
+
+.text.thread44_main
+                0x00000000000002f0        0x2
+ .text.thread44_main
+                0x00000000000002f0        0x2 ./USER_CODE/main.o
+                0x00000000000002f0                thread44_main
+
+.text.thread45_main
+                0x00000000000002f2        0x2
+ .text.thread45_main
+                0x00000000000002f2        0x2 ./USER_CODE/main.o
+                0x00000000000002f2                thread45_main
+
+.text.thread46_main
+                0x00000000000002f4        0x2
+ .text.thread46_main
+                0x00000000000002f4        0x2 ./USER_CODE/main.o
+                0x00000000000002f4                thread46_main
+
+.text.thread47_main
+                0x00000000000002f6        0x2
+ .text.thread47_main
+                0x00000000000002f6        0x2 ./USER_CODE/main.o
+                0x00000000000002f6                thread47_main
+
+.text.thread48_main
+                0x00000000000002f8        0x2
+ .text.thread48_main
+                0x00000000000002f8        0x2 ./USER_CODE/main.o
+                0x00000000000002f8                thread48_main
+
+.text.thread49_main
+                0x00000000000002fa        0x2
+ .text.thread49_main
+                0x00000000000002fa        0x2 ./USER_CODE/main.o
+                0x00000000000002fa                thread49_main
+
+.text.thread50_main
+                0x00000000000002fc        0x2
+ .text.thread50_main
+                0x00000000000002fc        0x2 ./USER_CODE/main.o
+                0x00000000000002fc                thread50_main
+
+.text.thread51_main
+                0x00000000000002fe        0x2
+ .text.thread51_main
+                0x00000000000002fe        0x2 ./USER_CODE/main.o
+                0x00000000000002fe                thread51_main
+
+.text.thread52_main
+                0x0000000000000300        0x2
+ .text.thread52_main
+                0x0000000000000300        0x2 ./USER_CODE/main.o
+                0x0000000000000300                thread52_main
+
+.text.thread53_main
+                0x0000000000000302        0x2
+ .text.thread53_main
+                0x0000000000000302        0x2 ./USER_CODE/main.o
+                0x0000000000000302                thread53_main
+
+.text.thread54_main
+                0x0000000000000304        0x2
+ .text.thread54_main
+                0x0000000000000304        0x2 ./USER_CODE/main.o
+                0x0000000000000304                thread54_main
+
+.text.thread55_main
+                0x0000000000000306        0x2
+ .text.thread55_main
+                0x0000000000000306        0x2 ./USER_CODE/main.o
+                0x0000000000000306                thread55_main
+
+.text.thread56_main
+                0x0000000000000308        0x2
+ .text.thread56_main
+                0x0000000000000308        0x2 ./USER_CODE/main.o
+                0x0000000000000308                thread56_main
+
+.text.thread57_main
+                0x000000000000030a        0x2
+ .text.thread57_main
+                0x000000000000030a        0x2 ./USER_CODE/main.o
+                0x000000000000030a                thread57_main
+
+.text.thread58_main
+                0x000000000000030c        0x2
+ .text.thread58_main
+                0x000000000000030c        0x2 ./USER_CODE/main.o
+                0x000000000000030c                thread58_main
+
+.text.thread59_main
+                0x000000000000030e        0x2
+ .text.thread59_main
+                0x000000000000030e        0x2 ./USER_CODE/main.o
+                0x000000000000030e                thread59_main
+
+.text.thread60_main
+                0x0000000000000310        0x2
+ .text.thread60_main
+                0x0000000000000310        0x2 ./USER_CODE/main.o
+                0x0000000000000310                thread60_main
+
+.text.thread61_main
+                0x0000000000000312        0x2
+ .text.thread61_main
+                0x0000000000000312        0x2 ./USER_CODE/main.o
+                0x0000000000000312                thread61_main
+
+.text.thread62_main
+                0x0000000000000314        0x2
+ .text.thread62_main
+                0x0000000000000314        0x2 ./USER_CODE/main.o
+                0x0000000000000314                thread62_main
+
+.text.thread63_main
+                0x0000000000000316        0x2
+ .text.thread63_main
+                0x0000000000000316        0x2 ./USER_CODE/main.o
+                0x0000000000000316                thread63_main
+
+.text.serial_init
+                0x0000000000000318       0x80
+ .text.serial_init
+                0x0000000000000318       0x80 ./USER_CODE/uart.o
+                0x0000000000000318                serial_init
+
+.text.thread1_initial
+                0x0000000000000398        0xa
+ .text.thread1_initial
+                0x0000000000000398        0xa ./MC3172/thread_start.o
+                0x0000000000000398                thread1_initial
+
+.text.thread2_initial
+                0x00000000000003a2        0xa
+ .text.thread2_initial
+                0x00000000000003a2        0xa ./MC3172/thread_start.o
+                0x00000000000003a2                thread2_initial
+
+.text.thread3_initial
+                0x00000000000003ac        0xa
+ .text.thread3_initial
+                0x00000000000003ac        0xa ./MC3172/thread_start.o
+                0x00000000000003ac                thread3_initial
+
+.text.thread4_initial
+                0x00000000000003b6        0xa
+ .text.thread4_initial
+                0x00000000000003b6        0xa ./MC3172/thread_start.o
+                0x00000000000003b6                thread4_initial
+
+.text.thread5_initial
+                0x00000000000003c0        0xa
+ .text.thread5_initial
+                0x00000000000003c0        0xa ./MC3172/thread_start.o
+                0x00000000000003c0                thread5_initial
+
+.text.thread6_initial
+                0x00000000000003ca        0xa
+ .text.thread6_initial
+                0x00000000000003ca        0xa ./MC3172/thread_start.o
+                0x00000000000003ca                thread6_initial
+
+.text.thread7_initial
+                0x00000000000003d4        0xa
+ .text.thread7_initial
+                0x00000000000003d4        0xa ./MC3172/thread_start.o
+                0x00000000000003d4                thread7_initial
+
+.text.thread8_initial
+                0x00000000000003de        0xa
+ .text.thread8_initial
+                0x00000000000003de        0xa ./MC3172/thread_start.o
+                0x00000000000003de                thread8_initial
+
+.text.thread9_initial
+                0x00000000000003e8        0xa
+ .text.thread9_initial
+                0x00000000000003e8        0xa ./MC3172/thread_start.o
+                0x00000000000003e8                thread9_initial
+
+.text.thread10_initial
+                0x00000000000003f2        0xa
+ .text.thread10_initial
+                0x00000000000003f2        0xa ./MC3172/thread_start.o
+                0x00000000000003f2                thread10_initial
+
+.text.thread11_initial
+                0x00000000000003fc        0xa
+ .text.thread11_initial
+                0x00000000000003fc        0xa ./MC3172/thread_start.o
+                0x00000000000003fc                thread11_initial
+
+.text.thread12_initial
+                0x0000000000000406        0xa
+ .text.thread12_initial
+                0x0000000000000406        0xa ./MC3172/thread_start.o
+                0x0000000000000406                thread12_initial
+
+.text.thread13_initial
+                0x0000000000000410        0xa
+ .text.thread13_initial
+                0x0000000000000410        0xa ./MC3172/thread_start.o
+                0x0000000000000410                thread13_initial
+
+.text.thread14_initial
+                0x000000000000041a        0xa
+ .text.thread14_initial
+                0x000000000000041a        0xa ./MC3172/thread_start.o
+                0x000000000000041a                thread14_initial
+
+.text.thread15_initial
+                0x0000000000000424        0xa
+ .text.thread15_initial
+                0x0000000000000424        0xa ./MC3172/thread_start.o
+                0x0000000000000424                thread15_initial
+
+.text.thread16_initial
+                0x000000000000042e        0xa
+ .text.thread16_initial
+                0x000000000000042e        0xa ./MC3172/thread_start.o
+                0x000000000000042e                thread16_initial
+
+.text.thread17_initial
+                0x0000000000000438        0xa
+ .text.thread17_initial
+                0x0000000000000438        0xa ./MC3172/thread_start.o
+                0x0000000000000438                thread17_initial
+
+.text.thread18_initial
+                0x0000000000000442        0xa
+ .text.thread18_initial
+                0x0000000000000442        0xa ./MC3172/thread_start.o
+                0x0000000000000442                thread18_initial
+
+.text.thread19_initial
+                0x000000000000044c        0xa
+ .text.thread19_initial
+                0x000000000000044c        0xa ./MC3172/thread_start.o
+                0x000000000000044c                thread19_initial
+
+.text.thread20_initial
+                0x0000000000000456        0xa
+ .text.thread20_initial
+                0x0000000000000456        0xa ./MC3172/thread_start.o
+                0x0000000000000456                thread20_initial
+
+.text.thread21_initial
+                0x0000000000000460        0xa
+ .text.thread21_initial
+                0x0000000000000460        0xa ./MC3172/thread_start.o
+                0x0000000000000460                thread21_initial
+
+.text.thread22_initial
+                0x000000000000046a        0xa
+ .text.thread22_initial
+                0x000000000000046a        0xa ./MC3172/thread_start.o
+                0x000000000000046a                thread22_initial
+
+.text.thread23_initial
+                0x0000000000000474        0xa
+ .text.thread23_initial
+                0x0000000000000474        0xa ./MC3172/thread_start.o
+                0x0000000000000474                thread23_initial
+
+.text.thread24_initial
+                0x000000000000047e        0xa
+ .text.thread24_initial
+                0x000000000000047e        0xa ./MC3172/thread_start.o
+                0x000000000000047e                thread24_initial
+
+.text.thread25_initial
+                0x0000000000000488        0xa
+ .text.thread25_initial
+                0x0000000000000488        0xa ./MC3172/thread_start.o
+                0x0000000000000488                thread25_initial
+
+.text.thread26_initial
+                0x0000000000000492        0xa
+ .text.thread26_initial
+                0x0000000000000492        0xa ./MC3172/thread_start.o
+                0x0000000000000492                thread26_initial
+
+.text.thread27_initial
+                0x000000000000049c        0xa
+ .text.thread27_initial
+                0x000000000000049c        0xa ./MC3172/thread_start.o
+                0x000000000000049c                thread27_initial
+
+.text.thread28_initial
+                0x00000000000004a6        0xa
+ .text.thread28_initial
+                0x00000000000004a6        0xa ./MC3172/thread_start.o
+                0x00000000000004a6                thread28_initial
+
+.text.thread29_initial
+                0x00000000000004b0        0xa
+ .text.thread29_initial
+                0x00000000000004b0        0xa ./MC3172/thread_start.o
+                0x00000000000004b0                thread29_initial
+
+.text.thread30_initial
+                0x00000000000004ba        0xa
+ .text.thread30_initial
+                0x00000000000004ba        0xa ./MC3172/thread_start.o
+                0x00000000000004ba                thread30_initial
+
+.text.thread31_initial
+                0x00000000000004c4        0xa
+ .text.thread31_initial
+                0x00000000000004c4        0xa ./MC3172/thread_start.o
+                0x00000000000004c4                thread31_initial
+
+.text.thread32_initial
+                0x00000000000004ce        0xa
+ .text.thread32_initial
+                0x00000000000004ce        0xa ./MC3172/thread_start.o
+                0x00000000000004ce                thread32_initial
+
+.text.thread33_initial
+                0x00000000000004d8        0xa
+ .text.thread33_initial
+                0x00000000000004d8        0xa ./MC3172/thread_start.o
+                0x00000000000004d8                thread33_initial
+
+.text.thread34_initial
+                0x00000000000004e2        0xa
+ .text.thread34_initial
+                0x00000000000004e2        0xa ./MC3172/thread_start.o
+                0x00000000000004e2                thread34_initial
+
+.text.thread35_initial
+                0x00000000000004ec        0xa
+ .text.thread35_initial
+                0x00000000000004ec        0xa ./MC3172/thread_start.o
+                0x00000000000004ec                thread35_initial
+
+.text.thread36_initial
+                0x00000000000004f6        0xa
+ .text.thread36_initial
+                0x00000000000004f6        0xa ./MC3172/thread_start.o
+                0x00000000000004f6                thread36_initial
+
+.text.thread37_initial
+                0x0000000000000500        0xa
+ .text.thread37_initial
+                0x0000000000000500        0xa ./MC3172/thread_start.o
+                0x0000000000000500                thread37_initial
+
+.text.thread38_initial
+                0x000000000000050a        0xa
+ .text.thread38_initial
+                0x000000000000050a        0xa ./MC3172/thread_start.o
+                0x000000000000050a                thread38_initial
+
+.text.thread39_initial
+                0x0000000000000514        0xa
+ .text.thread39_initial
+                0x0000000000000514        0xa ./MC3172/thread_start.o
+                0x0000000000000514                thread39_initial
+
+.text.thread40_initial
+                0x000000000000051e        0xa
+ .text.thread40_initial
+                0x000000000000051e        0xa ./MC3172/thread_start.o
+                0x000000000000051e                thread40_initial
+
+.text.thread41_initial
+                0x0000000000000528        0xa
+ .text.thread41_initial
+                0x0000000000000528        0xa ./MC3172/thread_start.o
+                0x0000000000000528                thread41_initial
+
+.text.thread42_initial
+                0x0000000000000532        0xa
+ .text.thread42_initial
+                0x0000000000000532        0xa ./MC3172/thread_start.o
+                0x0000000000000532                thread42_initial
+
+.text.thread43_initial
+                0x000000000000053c        0xa
+ .text.thread43_initial
+                0x000000000000053c        0xa ./MC3172/thread_start.o
+                0x000000000000053c                thread43_initial
+
+.text.thread44_initial
+                0x0000000000000546        0xa
+ .text.thread44_initial
+                0x0000000000000546        0xa ./MC3172/thread_start.o
+                0x0000000000000546                thread44_initial
+
+.text.thread45_initial
+                0x0000000000000550        0xa
+ .text.thread45_initial
+                0x0000000000000550        0xa ./MC3172/thread_start.o
+                0x0000000000000550                thread45_initial
+
+.text.thread46_initial
+                0x000000000000055a        0xa
+ .text.thread46_initial
+                0x000000000000055a        0xa ./MC3172/thread_start.o
+                0x000000000000055a                thread46_initial
+
+.text.thread47_initial
+                0x0000000000000564        0xa
+ .text.thread47_initial
+                0x0000000000000564        0xa ./MC3172/thread_start.o
+                0x0000000000000564                thread47_initial
+
+.text.thread48_initial
+                0x000000000000056e        0xa
+ .text.thread48_initial
+                0x000000000000056e        0xa ./MC3172/thread_start.o
+                0x000000000000056e                thread48_initial
+
+.text.thread49_initial
+                0x0000000000000578        0xa
+ .text.thread49_initial
+                0x0000000000000578        0xa ./MC3172/thread_start.o
+                0x0000000000000578                thread49_initial
+
+.text.thread50_initial
+                0x0000000000000582        0xa
+ .text.thread50_initial
+                0x0000000000000582        0xa ./MC3172/thread_start.o
+                0x0000000000000582                thread50_initial
+
+.text.thread51_initial
+                0x000000000000058c        0xa
+ .text.thread51_initial
+                0x000000000000058c        0xa ./MC3172/thread_start.o
+                0x000000000000058c                thread51_initial
+
+.text.thread52_initial
+                0x0000000000000596        0xa
+ .text.thread52_initial
+                0x0000000000000596        0xa ./MC3172/thread_start.o
+                0x0000000000000596                thread52_initial
+
+.text.thread53_initial
+                0x00000000000005a0        0xa
+ .text.thread53_initial
+                0x00000000000005a0        0xa ./MC3172/thread_start.o
+                0x00000000000005a0                thread53_initial
+
+.text.thread54_initial
+                0x00000000000005aa        0xa
+ .text.thread54_initial
+                0x00000000000005aa        0xa ./MC3172/thread_start.o
+                0x00000000000005aa                thread54_initial
+
+.text.thread55_initial
+                0x00000000000005b4        0xa
+ .text.thread55_initial
+                0x00000000000005b4        0xa ./MC3172/thread_start.o
+                0x00000000000005b4                thread55_initial
+
+.text.thread56_initial
+                0x00000000000005be        0xa
+ .text.thread56_initial
+                0x00000000000005be        0xa ./MC3172/thread_start.o
+                0x00000000000005be                thread56_initial
+
+.text.thread57_initial
+                0x00000000000005c8        0xa
+ .text.thread57_initial
+                0x00000000000005c8        0xa ./MC3172/thread_start.o
+                0x00000000000005c8                thread57_initial
+
+.text.thread58_initial
+                0x00000000000005d2        0xa
+ .text.thread58_initial
+                0x00000000000005d2        0xa ./MC3172/thread_start.o
+                0x00000000000005d2                thread58_initial
+
+.text.thread59_initial
+                0x00000000000005dc        0xa
+ .text.thread59_initial
+                0x00000000000005dc        0xa ./MC3172/thread_start.o
+                0x00000000000005dc                thread59_initial
+
+.text.thread60_initial
+                0x00000000000005e6        0xa
+ .text.thread60_initial
+                0x00000000000005e6        0xa ./MC3172/thread_start.o
+                0x00000000000005e6                thread60_initial
+
+.text.thread61_initial
+                0x00000000000005f0        0xa
+ .text.thread61_initial
+                0x00000000000005f0        0xa ./MC3172/thread_start.o
+                0x00000000000005f0                thread61_initial
+
+.text.thread62_initial
+                0x00000000000005fa        0xa
+ .text.thread62_initial
+                0x00000000000005fa        0xa ./MC3172/thread_start.o
+                0x00000000000005fa                thread62_initial
+
+.text.thread63_initial
+                0x0000000000000604        0xa
+ .text.thread63_initial
+                0x0000000000000604        0xa ./MC3172/thread_start.o
+                0x0000000000000604                thread63_initial
+
+.text.thread0_initial
+                0x000000000000060e      0x136
+ .text.thread0_initial
+                0x000000000000060e      0x136 ./MC3172/thread_start.o
+                0x000000000000060e                thread0_initial
+                0x0000000020000010                . = 0x20000010
+
+.rodata
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+
+.rodata1
+ *(.rodata1)
+
+.srodata
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+
+.data           0x0000000020000010      0x100
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.thread_initial_pointer
+                0x0000000020000010      0x100 ./MC3172/thread_start.o
+                0x0000000020000010                thread_initial_pointer
+
+.data1
+ *(.data1)
+
+.sdata
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.bss            0x0000000020000110       0x68
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.rx_data_temp
+                0x0000000020000110       0x20 ./USER_CODE/main.o
+                0x0000000020000110                rx_data_temp
+ .bss.serial    0x0000000020000130       0x48 ./USER_CODE/main.o
+                0x0000000020000130                serial
+
+.sbss
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+OUTPUT(MC3172.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x3b52
+ .debug_info    0x0000000000000000      0xd71 ./USER_CODE/fifo.o
+ .debug_info    0x0000000000000d71     0x1208 ./USER_CODE/main.o
+ .debug_info    0x0000000000001f79      0xdbe ./USER_CODE/uart.o
+ .debug_info    0x0000000000002d37      0xe1b ./MC3172/thread_start.o
+
+.debug_abbrev   0x0000000000000000      0xa0d
+ .debug_abbrev  0x0000000000000000      0x315 ./USER_CODE/fifo.o
+ .debug_abbrev  0x0000000000000315      0x2fc ./USER_CODE/main.o
+ .debug_abbrev  0x0000000000000611      0x2d5 ./USER_CODE/uart.o
+ .debug_abbrev  0x00000000000008e6      0x127 ./MC3172/thread_start.o
+
+.debug_loc      0x0000000000000000      0x7cc
+ .debug_loc     0x0000000000000000      0x4f8 ./USER_CODE/fifo.o
+ .debug_loc     0x00000000000004f8       0x49 ./USER_CODE/main.o
+ .debug_loc     0x0000000000000541      0x28b ./USER_CODE/uart.o
+
+.debug_aranges  0x0000000000000000      0x4e0
+ .debug_aranges
+                0x0000000000000000       0x58 ./USER_CODE/fifo.o
+ .debug_aranges
+                0x0000000000000058      0x230 ./USER_CODE/main.o
+ .debug_aranges
+                0x0000000000000288       0x38 ./USER_CODE/uart.o
+ .debug_aranges
+                0x00000000000002c0      0x220 ./MC3172/thread_start.o
+
+.debug_ranges   0x0000000000000000      0x520
+ .debug_ranges  0x0000000000000000       0xc8 ./USER_CODE/fifo.o
+ .debug_ranges  0x00000000000000c8      0x220 ./USER_CODE/main.o
+ .debug_ranges  0x00000000000002e8       0x28 ./USER_CODE/uart.o
+ .debug_ranges  0x0000000000000310      0x210 ./MC3172/thread_start.o
+
+.debug_macro    0x0000000000000000     0x2dcf
+ .debug_macro   0x0000000000000000      0x136 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000000136      0x742 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000000878     0x10df ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001957       0x22 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001979       0x8e ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001a07       0x51 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001a58       0xef ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001b47       0x6a ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001bb1      0x1df ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001d90       0x19 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001da9       0x58 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001e01       0x34 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001e35       0x34 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001e69       0x16 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001e7f      0x10e ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000001f8d       0x8d ./USER_CODE/fifo.o
+ .debug_macro   0x000000000000201a       0x58 ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000002072       0x1f ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000002091       0x43 ./USER_CODE/fifo.o
+ .debug_macro   0x00000000000020d4       0x20 ./USER_CODE/fifo.o
+ .debug_macro   0x00000000000020f4      0x18e ./USER_CODE/fifo.o
+ .debug_macro   0x0000000000002282      0x330 ./USER_CODE/fifo.o
+ .debug_macro   0x00000000000025b2       0x16 ./USER_CODE/fifo.o
+ .debug_macro   0x00000000000025c8       0x29 ./USER_CODE/fifo.o
+ .debug_macro   0x00000000000025f1      0x145 ./USER_CODE/main.o
+ .debug_macro   0x0000000000002736       0x1c ./USER_CODE/main.o
+ .debug_macro   0x0000000000002752      0x145 ./USER_CODE/uart.o
+ .debug_macro   0x0000000000002897       0x29 ./MC3172/thread_start.o
+ .debug_macro   0x00000000000028c0      0x50f ./MC3172/thread_start.o
+
+.debug_line     0x0000000000000000     0x2d9e
+ .debug_line    0x0000000000000000      0x948 ./USER_CODE/fifo.o
+ .debug_line    0x0000000000000948      0xf64 ./USER_CODE/main.o
+ .debug_line    0x00000000000018ac      0x5b4 ./USER_CODE/uart.o
+ .debug_line    0x0000000000001e60      0xf3e ./MC3172/thread_start.o
+
+.debug_str      0x0000000000000000    0x102b4
+ .debug_str     0x0000000000000000     0xddd5 ./USER_CODE/fifo.o
+                                       0xe03d (size before relaxing)
+ .debug_str     0x000000000000ddd5      0x6f4 ./USER_CODE/main.o
+                                       0xe681 (size before relaxing)
+ .debug_str     0x000000000000e4c9       0x75 ./USER_CODE/uart.o
+                                       0xe328 (size before relaxing)
+ .debug_str     0x000000000000e53e     0x1d76 ./MC3172/thread_start.o
+                                       0xc1d6 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./USER_CODE/fifo.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./USER_CODE/main.o
+ .comment       0x0000000000000033       0x34 ./USER_CODE/uart.o
+ .comment       0x0000000000000033       0x34 ./MC3172/thread_start.o
+
+.debug_frame    0x0000000000000000      0xa2c
+ .debug_frame   0x0000000000000000      0x118 ./USER_CODE/fifo.o
+ .debug_frame   0x0000000000000118      0x474 ./USER_CODE/main.o
+ .debug_frame   0x000000000000058c       0x80 ./USER_CODE/uart.o
+ .debug_frame   0x000000000000060c      0x420 ./MC3172/thread_start.o

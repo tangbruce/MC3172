@@ -1,0 +1,908 @@
+
+.\MC3172.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000010 <thread_start>:
+  10:	500007b7          	lui	a5,0x50000
+  14:	0007c783          	lbu	a5,0(a5) # 50000000 <thread_initial_pointer+0x2ffffff0>
+  18:	00279713          	slli	a4,a5,0x2
+  1c:	200007b7          	lui	a5,0x20000
+  20:	01078793          	addi	a5,a5,16 # 20000010 <thread_initial_pointer>
+  24:	97ba                	add	a5,a5,a4
+  26:	0007a303          	lw	t1,0(a5)
+  2a:	8302                	jr	t1
+
+Disassembly of section .text.GPCOM_UART_EXAMPLE:
+
+0000002c <GPCOM_UART_EXAMPLE>:
+  2c:	67c1                	lui	a5,0x10
+  2e:	078d                	addi	a5,a5,3
+  30:	c11c                	sw	a5,0(a0)
+  32:	4789                	li	a5,2
+  34:	c53c                	sw	a5,72(a0)
+  36:	733307b7          	lui	a5,0x73330
+  3a:	77778793          	addi	a5,a5,1911 # 73330777 <thread_initial_pointer+0x53330767>
+  3e:	d13c                	sw	a5,96(a0)
+  40:	4785                	li	a5,1
+  42:	c51c                	sw	a5,8(a0)
+  44:	6799                	lui	a5,0x6
+  46:	73278793          	addi	a5,a5,1842 # 6732 <thread0_initial+0x63a6>
+  4a:	c91c                	sw	a5,16(a0)
+  4c:	010307b7          	lui	a5,0x1030
+  50:	c13c                	sw	a5,64(a0)
+  52:	25054783          	lbu	a5,592(a0)
+  56:	25050813          	addi	a6,a0,592
+  5a:	38050593          	addi	a1,a0,896
+  5e:	0ff7f793          	andi	a5,a5,255
+  62:	10050613          	addi	a2,a0,256
+  66:	00084703          	lbu	a4,0(a6)
+  6a:	fee78ee3          	beq	a5,a4,66 <GPCOM_UART_EXAMPLE+0x3a>
+  6e:	0077f713          	andi	a4,a5,7
+  72:	070e                	slli	a4,a4,0x3
+  74:	972e                	add	a4,a4,a1
+  76:	4314                	lw	a3,0(a4)
+  78:	5d38                	lw	a4,120(a0)
+  7a:	0785                	addi	a5,a5,1
+  7c:	0ff6f693          	andi	a3,a3,255
+  80:	070e                	slli	a4,a4,0x3
+  82:	03877713          	andi	a4,a4,56
+  86:	9732                	add	a4,a4,a2
+  88:	c314                	sw	a3,0(a4)
+  8a:	8bbd                	andi	a5,a5,15
+  8c:	bfe9                	j	66 <GPCOM_UART_EXAMPLE+0x3a>
+
+Disassembly of section .text.thread0_main:
+
+0000008e <thread0_main>:
+  8e:	a001                	j	8e <thread0_main>
+
+Disassembly of section .text.thread1_main:
+
+00000090 <thread1_main>:
+  90:	1141                	addi	sp,sp,-16
+  92:	60303537          	lui	a0,0x60303
+  96:	c606                	sw	ra,12(sp)
+  98:	3f51                	jal	2c <GPCOM_UART_EXAMPLE>
+
+Disassembly of section .text.thread2_main:
+
+0000009a <thread2_main>:
+  9a:	a001                	j	9a <thread2_main>
+
+Disassembly of section .text.thread3_main:
+
+0000009c <thread3_main>:
+  9c:	a001                	j	9c <thread3_main>
+
+Disassembly of section .text.thread4_main:
+
+0000009e <thread4_main>:
+  9e:	a001                	j	9e <thread4_main>
+
+Disassembly of section .text.thread5_main:
+
+000000a0 <thread5_main>:
+  a0:	a001                	j	a0 <thread5_main>
+
+Disassembly of section .text.thread6_main:
+
+000000a2 <thread6_main>:
+  a2:	a001                	j	a2 <thread6_main>
+
+Disassembly of section .text.thread7_main:
+
+000000a4 <thread7_main>:
+  a4:	a001                	j	a4 <thread7_main>
+
+Disassembly of section .text.thread8_main:
+
+000000a6 <thread8_main>:
+  a6:	a001                	j	a6 <thread8_main>
+
+Disassembly of section .text.thread9_main:
+
+000000a8 <thread9_main>:
+  a8:	a001                	j	a8 <thread9_main>
+
+Disassembly of section .text.thread10_main:
+
+000000aa <thread10_main>:
+  aa:	a001                	j	aa <thread10_main>
+
+Disassembly of section .text.thread11_main:
+
+000000ac <thread11_main>:
+  ac:	a001                	j	ac <thread11_main>
+
+Disassembly of section .text.thread12_main:
+
+000000ae <thread12_main>:
+  ae:	a001                	j	ae <thread12_main>
+
+Disassembly of section .text.thread13_main:
+
+000000b0 <thread13_main>:
+  b0:	a001                	j	b0 <thread13_main>
+
+Disassembly of section .text.thread14_main:
+
+000000b2 <thread14_main>:
+  b2:	a001                	j	b2 <thread14_main>
+
+Disassembly of section .text.thread15_main:
+
+000000b4 <thread15_main>:
+  b4:	a001                	j	b4 <thread15_main>
+
+Disassembly of section .text.thread16_main:
+
+000000b6 <thread16_main>:
+  b6:	a001                	j	b6 <thread16_main>
+
+Disassembly of section .text.thread17_main:
+
+000000b8 <thread17_main>:
+  b8:	a001                	j	b8 <thread17_main>
+
+Disassembly of section .text.thread18_main:
+
+000000ba <thread18_main>:
+  ba:	a001                	j	ba <thread18_main>
+
+Disassembly of section .text.thread19_main:
+
+000000bc <thread19_main>:
+  bc:	a001                	j	bc <thread19_main>
+
+Disassembly of section .text.thread20_main:
+
+000000be <thread20_main>:
+  be:	a001                	j	be <thread20_main>
+
+Disassembly of section .text.thread21_main:
+
+000000c0 <thread21_main>:
+  c0:	a001                	j	c0 <thread21_main>
+
+Disassembly of section .text.thread22_main:
+
+000000c2 <thread22_main>:
+  c2:	a001                	j	c2 <thread22_main>
+
+Disassembly of section .text.thread23_main:
+
+000000c4 <thread23_main>:
+  c4:	a001                	j	c4 <thread23_main>
+
+Disassembly of section .text.thread24_main:
+
+000000c6 <thread24_main>:
+  c6:	a001                	j	c6 <thread24_main>
+
+Disassembly of section .text.thread25_main:
+
+000000c8 <thread25_main>:
+  c8:	a001                	j	c8 <thread25_main>
+
+Disassembly of section .text.thread26_main:
+
+000000ca <thread26_main>:
+  ca:	a001                	j	ca <thread26_main>
+
+Disassembly of section .text.thread27_main:
+
+000000cc <thread27_main>:
+  cc:	a001                	j	cc <thread27_main>
+
+Disassembly of section .text.thread28_main:
+
+000000ce <thread28_main>:
+  ce:	a001                	j	ce <thread28_main>
+
+Disassembly of section .text.thread29_main:
+
+000000d0 <thread29_main>:
+  d0:	a001                	j	d0 <thread29_main>
+
+Disassembly of section .text.thread30_main:
+
+000000d2 <thread30_main>:
+  d2:	a001                	j	d2 <thread30_main>
+
+Disassembly of section .text.thread31_main:
+
+000000d4 <thread31_main>:
+  d4:	a001                	j	d4 <thread31_main>
+
+Disassembly of section .text.thread32_main:
+
+000000d6 <thread32_main>:
+  d6:	a001                	j	d6 <thread32_main>
+
+Disassembly of section .text.thread33_main:
+
+000000d8 <thread33_main>:
+  d8:	a001                	j	d8 <thread33_main>
+
+Disassembly of section .text.thread34_main:
+
+000000da <thread34_main>:
+  da:	a001                	j	da <thread34_main>
+
+Disassembly of section .text.thread35_main:
+
+000000dc <thread35_main>:
+  dc:	a001                	j	dc <thread35_main>
+
+Disassembly of section .text.thread36_main:
+
+000000de <thread36_main>:
+  de:	a001                	j	de <thread36_main>
+
+Disassembly of section .text.thread37_main:
+
+000000e0 <thread37_main>:
+  e0:	a001                	j	e0 <thread37_main>
+
+Disassembly of section .text.thread38_main:
+
+000000e2 <thread38_main>:
+  e2:	a001                	j	e2 <thread38_main>
+
+Disassembly of section .text.thread39_main:
+
+000000e4 <thread39_main>:
+  e4:	a001                	j	e4 <thread39_main>
+
+Disassembly of section .text.thread40_main:
+
+000000e6 <thread40_main>:
+  e6:	a001                	j	e6 <thread40_main>
+
+Disassembly of section .text.thread41_main:
+
+000000e8 <thread41_main>:
+  e8:	a001                	j	e8 <thread41_main>
+
+Disassembly of section .text.thread42_main:
+
+000000ea <thread42_main>:
+  ea:	a001                	j	ea <thread42_main>
+
+Disassembly of section .text.thread43_main:
+
+000000ec <thread43_main>:
+  ec:	a001                	j	ec <thread43_main>
+
+Disassembly of section .text.thread44_main:
+
+000000ee <thread44_main>:
+  ee:	a001                	j	ee <thread44_main>
+
+Disassembly of section .text.thread45_main:
+
+000000f0 <thread45_main>:
+  f0:	a001                	j	f0 <thread45_main>
+
+Disassembly of section .text.thread46_main:
+
+000000f2 <thread46_main>:
+  f2:	a001                	j	f2 <thread46_main>
+
+Disassembly of section .text.thread47_main:
+
+000000f4 <thread47_main>:
+  f4:	a001                	j	f4 <thread47_main>
+
+Disassembly of section .text.thread48_main:
+
+000000f6 <thread48_main>:
+  f6:	a001                	j	f6 <thread48_main>
+
+Disassembly of section .text.thread49_main:
+
+000000f8 <thread49_main>:
+  f8:	a001                	j	f8 <thread49_main>
+
+Disassembly of section .text.thread50_main:
+
+000000fa <thread50_main>:
+  fa:	a001                	j	fa <thread50_main>
+
+Disassembly of section .text.thread51_main:
+
+000000fc <thread51_main>:
+  fc:	a001                	j	fc <thread51_main>
+
+Disassembly of section .text.thread52_main:
+
+000000fe <thread52_main>:
+  fe:	a001                	j	fe <thread52_main>
+
+Disassembly of section .text.thread53_main:
+
+00000100 <thread53_main>:
+ 100:	a001                	j	100 <thread53_main>
+
+Disassembly of section .text.thread54_main:
+
+00000102 <thread54_main>:
+ 102:	a001                	j	102 <thread54_main>
+
+Disassembly of section .text.thread55_main:
+
+00000104 <thread55_main>:
+ 104:	a001                	j	104 <thread55_main>
+
+Disassembly of section .text.thread56_main:
+
+00000106 <thread56_main>:
+ 106:	a001                	j	106 <thread56_main>
+
+Disassembly of section .text.thread57_main:
+
+00000108 <thread57_main>:
+ 108:	a001                	j	108 <thread57_main>
+
+Disassembly of section .text.thread58_main:
+
+0000010a <thread58_main>:
+ 10a:	a001                	j	10a <thread58_main>
+
+Disassembly of section .text.thread59_main:
+
+0000010c <thread59_main>:
+ 10c:	a001                	j	10c <thread59_main>
+
+Disassembly of section .text.thread60_main:
+
+0000010e <thread60_main>:
+ 10e:	a001                	j	10e <thread60_main>
+
+Disassembly of section .text.thread61_main:
+
+00000110 <thread61_main>:
+ 110:	a001                	j	110 <thread61_main>
+
+Disassembly of section .text.thread62_main:
+
+00000112 <thread62_main>:
+ 112:	a001                	j	112 <thread62_main>
+
+Disassembly of section .text.thread63_main:
+
+00000114 <thread63_main>:
+ 114:	a001                	j	114 <thread63_main>
+
+Disassembly of section .text.thread1_initial:
+
+00000116 <thread1_initial>:
+ 116:	20010137          	lui	sp,0x20010
+ 11a:	b6810113          	addi	sp,sp,-1176 # 2000fb68 <thread_initial_pointer+0xfb58>
+ 11e:	bf8d                	j	90 <thread1_main>
+
+Disassembly of section .text.thread2_initial:
+
+00000120 <thread2_initial>:
+ 120:	2000f137          	lui	sp,0x2000f
+ 124:	2b810113          	addi	sp,sp,696 # 2000f2b8 <thread_initial_pointer+0xf2a8>
+ 128:	bf8d                	j	9a <thread2_main>
+
+Disassembly of section .text.thread3_initial:
+
+0000012a <thread3_initial>:
+ 12a:	2000e137          	lui	sp,0x2000e
+ 12e:	5b010113          	addi	sp,sp,1456 # 2000e5b0 <thread_initial_pointer+0xe5a0>
+ 132:	b7ad                	j	9c <thread3_main>
+
+Disassembly of section .text.thread4_initial:
+
+00000134 <thread4_initial>:
+ 134:	2000d137          	lui	sp,0x2000d
+ 138:	45410113          	addi	sp,sp,1108 # 2000d454 <thread_initial_pointer+0xd444>
+ 13c:	b78d                	j	9e <thread4_main>
+
+Disassembly of section .text.thread5_initial:
+
+0000013e <thread5_initial>:
+ 13e:	2000c137          	lui	sp,0x2000c
+ 142:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 146:	bfa9                	j	a0 <thread5_main>
+
+Disassembly of section .text.thread6_initial:
+
+00000148 <thread6_initial>:
+ 148:	2000c137          	lui	sp,0x2000c
+ 14c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 150:	bf89                	j	a2 <thread6_main>
+
+Disassembly of section .text.thread7_initial:
+
+00000152 <thread7_initial>:
+ 152:	2000c137          	lui	sp,0x2000c
+ 156:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 15a:	b7a9                	j	a4 <thread7_main>
+
+Disassembly of section .text.thread8_initial:
+
+0000015c <thread8_initial>:
+ 15c:	2000c137          	lui	sp,0x2000c
+ 160:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 164:	b789                	j	a6 <thread8_main>
+
+Disassembly of section .text.thread9_initial:
+
+00000166 <thread9_initial>:
+ 166:	2000c137          	lui	sp,0x2000c
+ 16a:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 16e:	bf2d                	j	a8 <thread9_main>
+
+Disassembly of section .text.thread10_initial:
+
+00000170 <thread10_initial>:
+ 170:	2000c137          	lui	sp,0x2000c
+ 174:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 178:	bf0d                	j	aa <thread10_main>
+
+Disassembly of section .text.thread11_initial:
+
+0000017a <thread11_initial>:
+ 17a:	2000c137          	lui	sp,0x2000c
+ 17e:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 182:	b72d                	j	ac <thread11_main>
+
+Disassembly of section .text.thread12_initial:
+
+00000184 <thread12_initial>:
+ 184:	2000c137          	lui	sp,0x2000c
+ 188:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 18c:	b70d                	j	ae <thread12_main>
+
+Disassembly of section .text.thread13_initial:
+
+0000018e <thread13_initial>:
+ 18e:	2000c137          	lui	sp,0x2000c
+ 192:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 196:	bf29                	j	b0 <thread13_main>
+
+Disassembly of section .text.thread14_initial:
+
+00000198 <thread14_initial>:
+ 198:	2000c137          	lui	sp,0x2000c
+ 19c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1a0:	bf09                	j	b2 <thread14_main>
+
+Disassembly of section .text.thread15_initial:
+
+000001a2 <thread15_initial>:
+ 1a2:	2000c137          	lui	sp,0x2000c
+ 1a6:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1aa:	b729                	j	b4 <thread15_main>
+
+Disassembly of section .text.thread16_initial:
+
+000001ac <thread16_initial>:
+ 1ac:	2000c137          	lui	sp,0x2000c
+ 1b0:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1b4:	b709                	j	b6 <thread16_main>
+
+Disassembly of section .text.thread17_initial:
+
+000001b6 <thread17_initial>:
+ 1b6:	2000c137          	lui	sp,0x2000c
+ 1ba:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1be:	bded                	j	b8 <thread17_main>
+
+Disassembly of section .text.thread18_initial:
+
+000001c0 <thread18_initial>:
+ 1c0:	2000c137          	lui	sp,0x2000c
+ 1c4:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1c8:	bdcd                	j	ba <thread18_main>
+
+Disassembly of section .text.thread19_initial:
+
+000001ca <thread19_initial>:
+ 1ca:	2000c137          	lui	sp,0x2000c
+ 1ce:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1d2:	b5ed                	j	bc <thread19_main>
+
+Disassembly of section .text.thread20_initial:
+
+000001d4 <thread20_initial>:
+ 1d4:	2000c137          	lui	sp,0x2000c
+ 1d8:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1dc:	b5cd                	j	be <thread20_main>
+
+Disassembly of section .text.thread21_initial:
+
+000001de <thread21_initial>:
+ 1de:	2000c137          	lui	sp,0x2000c
+ 1e2:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1e6:	bde9                	j	c0 <thread21_main>
+
+Disassembly of section .text.thread22_initial:
+
+000001e8 <thread22_initial>:
+ 1e8:	2000c137          	lui	sp,0x2000c
+ 1ec:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1f0:	bdc9                	j	c2 <thread22_main>
+
+Disassembly of section .text.thread23_initial:
+
+000001f2 <thread23_initial>:
+ 1f2:	2000c137          	lui	sp,0x2000c
+ 1f6:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 1fa:	b5e9                	j	c4 <thread23_main>
+
+Disassembly of section .text.thread24_initial:
+
+000001fc <thread24_initial>:
+ 1fc:	2000c137          	lui	sp,0x2000c
+ 200:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 204:	b5c9                	j	c6 <thread24_main>
+
+Disassembly of section .text.thread25_initial:
+
+00000206 <thread25_initial>:
+ 206:	2000c137          	lui	sp,0x2000c
+ 20a:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 20e:	bd6d                	j	c8 <thread25_main>
+
+Disassembly of section .text.thread26_initial:
+
+00000210 <thread26_initial>:
+ 210:	2000c137          	lui	sp,0x2000c
+ 214:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 218:	bd4d                	j	ca <thread26_main>
+
+Disassembly of section .text.thread27_initial:
+
+0000021a <thread27_initial>:
+ 21a:	2000c137          	lui	sp,0x2000c
+ 21e:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 222:	b56d                	j	cc <thread27_main>
+
+Disassembly of section .text.thread28_initial:
+
+00000224 <thread28_initial>:
+ 224:	2000c137          	lui	sp,0x2000c
+ 228:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 22c:	b54d                	j	ce <thread28_main>
+
+Disassembly of section .text.thread29_initial:
+
+0000022e <thread29_initial>:
+ 22e:	2000c137          	lui	sp,0x2000c
+ 232:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 236:	bd69                	j	d0 <thread29_main>
+
+Disassembly of section .text.thread30_initial:
+
+00000238 <thread30_initial>:
+ 238:	2000c137          	lui	sp,0x2000c
+ 23c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 240:	bd49                	j	d2 <thread30_main>
+
+Disassembly of section .text.thread31_initial:
+
+00000242 <thread31_initial>:
+ 242:	2000c137          	lui	sp,0x2000c
+ 246:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 24a:	b569                	j	d4 <thread31_main>
+
+Disassembly of section .text.thread32_initial:
+
+0000024c <thread32_initial>:
+ 24c:	2000c137          	lui	sp,0x2000c
+ 250:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 254:	b549                	j	d6 <thread32_main>
+
+Disassembly of section .text.thread33_initial:
+
+00000256 <thread33_initial>:
+ 256:	2000c137          	lui	sp,0x2000c
+ 25a:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 25e:	bdad                	j	d8 <thread33_main>
+
+Disassembly of section .text.thread34_initial:
+
+00000260 <thread34_initial>:
+ 260:	2000c137          	lui	sp,0x2000c
+ 264:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 268:	bd8d                	j	da <thread34_main>
+
+Disassembly of section .text.thread35_initial:
+
+0000026a <thread35_initial>:
+ 26a:	2000c137          	lui	sp,0x2000c
+ 26e:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 272:	b5ad                	j	dc <thread35_main>
+
+Disassembly of section .text.thread36_initial:
+
+00000274 <thread36_initial>:
+ 274:	2000c137          	lui	sp,0x2000c
+ 278:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 27c:	b58d                	j	de <thread36_main>
+
+Disassembly of section .text.thread37_initial:
+
+0000027e <thread37_initial>:
+ 27e:	2000c137          	lui	sp,0x2000c
+ 282:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 286:	bda9                	j	e0 <thread37_main>
+
+Disassembly of section .text.thread38_initial:
+
+00000288 <thread38_initial>:
+ 288:	2000c137          	lui	sp,0x2000c
+ 28c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 290:	bd89                	j	e2 <thread38_main>
+
+Disassembly of section .text.thread39_initial:
+
+00000292 <thread39_initial>:
+ 292:	2000c137          	lui	sp,0x2000c
+ 296:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 29a:	b5a9                	j	e4 <thread39_main>
+
+Disassembly of section .text.thread40_initial:
+
+0000029c <thread40_initial>:
+ 29c:	2000c137          	lui	sp,0x2000c
+ 2a0:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2a4:	b589                	j	e6 <thread40_main>
+
+Disassembly of section .text.thread41_initial:
+
+000002a6 <thread41_initial>:
+ 2a6:	2000c137          	lui	sp,0x2000c
+ 2aa:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2ae:	bd2d                	j	e8 <thread41_main>
+
+Disassembly of section .text.thread42_initial:
+
+000002b0 <thread42_initial>:
+ 2b0:	2000c137          	lui	sp,0x2000c
+ 2b4:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2b8:	bd0d                	j	ea <thread42_main>
+
+Disassembly of section .text.thread43_initial:
+
+000002ba <thread43_initial>:
+ 2ba:	2000c137          	lui	sp,0x2000c
+ 2be:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2c2:	b52d                	j	ec <thread43_main>
+
+Disassembly of section .text.thread44_initial:
+
+000002c4 <thread44_initial>:
+ 2c4:	2000c137          	lui	sp,0x2000c
+ 2c8:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2cc:	b50d                	j	ee <thread44_main>
+
+Disassembly of section .text.thread45_initial:
+
+000002ce <thread45_initial>:
+ 2ce:	2000c137          	lui	sp,0x2000c
+ 2d2:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2d6:	bd29                	j	f0 <thread45_main>
+
+Disassembly of section .text.thread46_initial:
+
+000002d8 <thread46_initial>:
+ 2d8:	2000c137          	lui	sp,0x2000c
+ 2dc:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2e0:	bd09                	j	f2 <thread46_main>
+
+Disassembly of section .text.thread47_initial:
+
+000002e2 <thread47_initial>:
+ 2e2:	2000c137          	lui	sp,0x2000c
+ 2e6:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2ea:	b529                	j	f4 <thread47_main>
+
+Disassembly of section .text.thread48_initial:
+
+000002ec <thread48_initial>:
+ 2ec:	2000c137          	lui	sp,0x2000c
+ 2f0:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2f4:	b509                	j	f6 <thread48_main>
+
+Disassembly of section .text.thread49_initial:
+
+000002f6 <thread49_initial>:
+ 2f6:	2000c137          	lui	sp,0x2000c
+ 2fa:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 2fe:	bbed                	j	f8 <thread49_main>
+
+Disassembly of section .text.thread50_initial:
+
+00000300 <thread50_initial>:
+ 300:	2000c137          	lui	sp,0x2000c
+ 304:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 308:	bbcd                	j	fa <thread50_main>
+
+Disassembly of section .text.thread51_initial:
+
+0000030a <thread51_initial>:
+ 30a:	2000c137          	lui	sp,0x2000c
+ 30e:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 312:	b3ed                	j	fc <thread51_main>
+
+Disassembly of section .text.thread52_initial:
+
+00000314 <thread52_initial>:
+ 314:	2000c137          	lui	sp,0x2000c
+ 318:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 31c:	b3cd                	j	fe <thread52_main>
+
+Disassembly of section .text.thread53_initial:
+
+0000031e <thread53_initial>:
+ 31e:	2000c137          	lui	sp,0x2000c
+ 322:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 326:	bbe9                	j	100 <thread53_main>
+
+Disassembly of section .text.thread54_initial:
+
+00000328 <thread54_initial>:
+ 328:	2000c137          	lui	sp,0x2000c
+ 32c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 330:	bbc9                	j	102 <thread54_main>
+
+Disassembly of section .text.thread55_initial:
+
+00000332 <thread55_initial>:
+ 332:	2000c137          	lui	sp,0x2000c
+ 336:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 33a:	b3e9                	j	104 <thread55_main>
+
+Disassembly of section .text.thread56_initial:
+
+0000033c <thread56_initial>:
+ 33c:	2000c137          	lui	sp,0x2000c
+ 340:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 344:	b3c9                	j	106 <thread56_main>
+
+Disassembly of section .text.thread57_initial:
+
+00000346 <thread57_initial>:
+ 346:	2000c137          	lui	sp,0x2000c
+ 34a:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 34e:	bb6d                	j	108 <thread57_main>
+
+Disassembly of section .text.thread58_initial:
+
+00000350 <thread58_initial>:
+ 350:	2000c137          	lui	sp,0x2000c
+ 354:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 358:	bb4d                	j	10a <thread58_main>
+
+Disassembly of section .text.thread59_initial:
+
+0000035a <thread59_initial>:
+ 35a:	2000c137          	lui	sp,0x2000c
+ 35e:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 362:	b36d                	j	10c <thread59_main>
+
+Disassembly of section .text.thread60_initial:
+
+00000364 <thread60_initial>:
+ 364:	2000c137          	lui	sp,0x2000c
+ 368:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 36c:	b34d                	j	10e <thread60_main>
+
+Disassembly of section .text.thread61_initial:
+
+0000036e <thread61_initial>:
+ 36e:	2000c137          	lui	sp,0x2000c
+ 372:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 376:	bb69                	j	110 <thread61_main>
+
+Disassembly of section .text.thread62_initial:
+
+00000378 <thread62_initial>:
+ 378:	2000c137          	lui	sp,0x2000c
+ 37c:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 380:	bb49                	j	112 <thread62_main>
+
+Disassembly of section .text.thread63_initial:
+
+00000382 <thread63_initial>:
+ 382:	2000c137          	lui	sp,0x2000c
+ 386:	ea010113          	addi	sp,sp,-352 # 2000bea0 <thread_initial_pointer+0xbe90>
+ 38a:	b369                	j	114 <thread63_main>
+
+Disassembly of section .text.thread0_initial:
+
+0000038c <thread0_initial>:
+ 38c:	20010137          	lui	sp,0x20010
+ 390:	fe010113          	addi	sp,sp,-32 # 2000ffe0 <thread_initial_pointer+0xffd0>
+ 394:	500107b7          	lui	a5,0x50010
+ 398:	04000713          	li	a4,64
+ 39c:	00e78023          	sb	a4,0(a5) # 50010000 <thread_initial_pointer+0x3000fff0>
+ 3a0:	002007b7          	lui	a5,0x200
+ 3a4:	50050737          	lui	a4,0x50050
+ 3a8:	00378693          	addi	a3,a5,3 # 200003 <thread0_initial+0x1ffc77>
+ 3ac:	10d72423          	sw	a3,264(a4) # 50050108 <thread_initial_pointer+0x300500f8>
+ 3b0:	00778693          	addi	a3,a5,7
+ 3b4:	10d72423          	sw	a3,264(a4)
+ 3b8:	00f78693          	addi	a3,a5,15
+ 3bc:	10d72423          	sw	a3,264(a4)
+ 3c0:	10f78793          	addi	a5,a5,271
+ 3c4:	10f72423          	sw	a5,264(a4)
+ 3c8:	500207b7          	lui	a5,0x50020
+ 3cc:	f0fff737          	lui	a4,0xf0fff
+ 3d0:	d798                	sw	a4,40(a5)
+ 3d2:	db98                	sw	a4,48(a5)
+ 3d4:	df98                	sw	a4,56(a5)
+ 3d6:	c7b8                	sw	a4,72(a5)
+ 3d8:	cbb8                	sw	a4,80(a5)
+ 3da:	cfb8                	sw	a4,88(a5)
+ 3dc:	d7b8                	sw	a4,104(a5)
+ 3de:	dbb8                	sw	a4,112(a5)
+ 3e0:	dfb8                	sw	a4,120(a5)
+ 3e2:	08e7a423          	sw	a4,136(a5) # 50020088 <thread_initial_pointer+0x30020078>
+ 3e6:	08e7a823          	sw	a4,144(a5)
+ 3ea:	08e7ac23          	sw	a4,152(a5)
+ 3ee:	0ae7a423          	sw	a4,168(a5)
+ 3f2:	0ae7a823          	sw	a4,176(a5)
+ 3f6:	0ae7ac23          	sw	a4,184(a5)
+ 3fa:	0ce7a423          	sw	a4,200(a5)
+ 3fe:	0ce7a823          	sw	a4,208(a5)
+ 402:	0ce7ac23          	sw	a4,216(a5)
+ 406:	0ee7a423          	sw	a4,232(a5)
+ 40a:	0ee7a823          	sw	a4,240(a5)
+ 40e:	0ee7ac23          	sw	a4,248(a5)
+ 412:	10e7a423          	sw	a4,264(a5)
+ 416:	10e7a823          	sw	a4,272(a5)
+ 41a:	10e7ac23          	sw	a4,280(a5)
+ 41e:	0007a423          	sw	zero,8(a5)
+ 422:	0007a823          	sw	zero,16(a5)
+ 426:	0007ac23          	sw	zero,24(a5)
+ 42a:	100016b7          	lui	a3,0x10001
+ 42e:	12e7a423          	sw	a4,296(a5)
+ 432:	12e7a823          	sw	a4,304(a5)
+ 436:	12e7ac23          	sw	a4,312(a5)
+ 43a:	14e7a423          	sw	a4,328(a5)
+ 43e:	14e7a823          	sw	a4,336(a5)
+ 442:	14e7ac23          	sw	a4,344(a5)
+ 446:	16e7a423          	sw	a4,360(a5)
+ 44a:	16e7a823          	sw	a4,368(a5)
+ 44e:	16e7ac23          	sw	a4,376(a5)
+ 452:	18e7a423          	sw	a4,392(a5)
+ 456:	18e7a823          	sw	a4,400(a5)
+ 45a:	18e7ac23          	sw	a4,408(a5)
+ 45e:	1ae7a423          	sw	a4,424(a5)
+ 462:	1ae7a823          	sw	a4,432(a5)
+ 466:	1ae7ac23          	sw	a4,440(a5)
+ 46a:	1ce7a423          	sw	a4,456(a5)
+ 46e:	1ce7a823          	sw	a4,464(a5)
+ 472:	1ce7ac23          	sw	a4,472(a5)
+ 476:	1ee7a423          	sw	a4,488(a5)
+ 47a:	1ee7a823          	sw	a4,496(a5)
+ 47e:	1ee7ac23          	sw	a4,504(a5)
+ 482:	c3b8                	sw	a4,64(a5)
+ 484:	d3b8                	sw	a4,96(a5)
+ 486:	08e7a023          	sw	a4,128(a5)
+ 48a:	0ae7a023          	sw	a4,160(a5)
+ 48e:	0ce7a023          	sw	a4,192(a5)
+ 492:	0ee7a023          	sw	a4,224(a5)
+ 496:	10e7a023          	sw	a4,256(a5)
+ 49a:	12e7a023          	sw	a4,288(a5)
+ 49e:	14e7a023          	sw	a4,320(a5)
+ 4a2:	16e7a023          	sw	a4,352(a5)
+ 4a6:	18e7a023          	sw	a4,384(a5)
+ 4aa:	d394                	sw	a3,32(a5)
+ 4ac:	1ae7a023          	sw	a4,416(a5)
+ 4b0:	1ce7a023          	sw	a4,448(a5)
+ 4b4:	1ee7a023          	sw	a4,480(a5)
+ 4b8:	10000737          	lui	a4,0x10000
+ 4bc:	c398                	sw	a4,0(a5)
+ 4be:	20010137          	lui	sp,0x20010
+ 4c2:	fc010113          	addi	sp,sp,-64 # 2000ffc0 <thread_initial_pointer+0xffb0>
+ 4c6:	b6e1                	j	8e <thread0_main>
